@@ -4,7 +4,7 @@ var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) 
 {
-  response.send('Hello World from PNNode!');
+  response.send('Hello World from Nick and Philip via Node.js!');
 });
 
 var port = process.env.PORT || 3000;
